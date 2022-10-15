@@ -1,0 +1,38 @@
+
+.cabecera {
+  height: 150px;
+  border: 1px solid black;
+  text-align: center;
+  background-image: url("/media/acero.jpg");
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px black;     
+}
+
+.menu {
+  font: 20px bold verdana;
+  border-bottom: 1px solid black;
+  
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  border-right: 1px solid black;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+.menu :first-child {
+  border-left: 1px solid black;
+  margin-left: -20px;
+}
+
+footer {
+  border: 1px solid black;
+}
