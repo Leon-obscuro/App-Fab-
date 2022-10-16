@@ -10,9 +10,10 @@
 }
 
 .menu {
-  font: 20px bold verdana;
-  border-bottom: 1px solid black;
-  
+  font: 25px bold verdana;
+  border-bottom: 1px solid black; 
+  margin-bottom: 10px;
+  background-color: grey;
 }
 
 .menu ul {
@@ -20,19 +21,33 @@
   margin: 0;
 }
 
-.menu li {
-  display: inline-block;
+.menu li{
+  display: inline-block ;
+  padding: 15px 20px 15px 20px;
+  width: 200px;
+  height: 30px; 
+  text-align: center;
   border-right: 1px solid black;
-  padding-top: 15px;
-  padding-right: 20px;
-  padding-bottom: 15px;
-  padding-left: 20px;
+  background-color: white;
 }
+
 .menu :first-child {
   border-left: 1px solid black;
-  margin-left: -20px;
+}
+
+.menu li:hover {
+  background-color: lightgray; 
 }
 
 footer {
   border: 1px solid black;
+  margin-top: 10px;
+  font: 15px italic verdana;
+}
+
+#hoja_de_trabajo {
+  width: 90%;
+  height: 400px;
+  border: 2px dashed gray;
+  margin: 0 auto;
 }

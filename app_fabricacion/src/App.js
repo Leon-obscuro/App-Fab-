@@ -1,4 +1,5 @@
 import './App.css';
+import MostrarProyectos from './componente1';
 
 function App() {
   return (
@@ -8,27 +9,24 @@ function App() {
       </header>
       <nav className="menu">
         <ul>
-          <li>Proyectos Activos</li>
-          <li>Planos</li>
-          <li>Materiales</li>
-          <li>Procesos Activos</li>
+         <li id="boton1" >Proyectos Activos</li>
+         <li>Planos</li>
+         <li>Materiales</li>
+         <li>Procesos</li>
         </ul>
       </nav>
-      <main>
-        <p>Aquí debemos agregar por ejemplo información sobre la base de datos sobre los proyectos</p>
-      </main>
+      <section id= "hoja_de_trabajo">
+        <MostrarProyectos></MostrarProyectos>
+      </section>
       <footer>
         <br></br>
-        <details>
-          <summary>Integrantes del equipo:</summary>
+        Integrantes del equipo:
           <ul>
             <li>Héctor Iván Meza Ojeda</li>
             <li>Leonardo Francisco Pacheco</li>
             <li>Iván Diaz Sandoval</li>
             <li>Reyes Fernando Vazquez Valdivia</li>
           </ul>
-        </details>
-
       </footer>
 
 
