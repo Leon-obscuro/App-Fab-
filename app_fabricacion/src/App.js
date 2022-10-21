@@ -7,39 +7,39 @@ function App() {
       <header className="cabecera">
         <h1>App de fabricación</h1>  
       </header>
-      <nav className="menu">
-        <ul>
-         <li id="boton1" >Proyectos Activos</li>
-         <li>Planos</li>
-         <li>Materiales</li>
-         <li>Procesos</li>
-        </ul>
-      </nav>
+     
       <section id= "hoja_de_trabajo">
-      <h5>Listado de proyectos:</h5>;
+      <h2>Listado de Obras:</h2>;
         <MostrarProyectos
         proyectoid='001'
         estado='activo'
         descripcion='Proyecto Puente "miraflores" en construcción y sus materiales'
+        materiales='Varilla, cemento, block'
+        planos='Planos001'
         />
         <MostrarProyectos 
         proyectoid='002'
         estado='activo' 
         descripcion='Proyecto tramo carretero km07 y sus materiales requeridos'
+        materiales='Varilla, cemento, block'
+        planos='Planos002'
         />
         <MostrarProyectos
         proyectoid='003'
         estado='activo'
         descripcion='Construcción edificio tda autoservicio, materiales y planos requeridos'
+        materiales='Varilla, cemento, block'
+        planos='Planos003'
         />
         <MostrarProyectos
         proyectoid='004'
         estado='pausado'
         descripcion='N/A'
+        materiales='Varilla, cemento, block'
+        planos='Planos004'
         />
       </section>
       <footer>
-        <br></br>
         Integrantes del equipo:
           <ul>
             <li>Héctor Iván Meza Ojeda</li>

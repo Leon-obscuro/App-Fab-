@@ -9,36 +9,6 @@
   text-shadow: 2px 2px black;     
 }
 
-.menu {
-  font: 25px bold verdana, sans-serif;
-  border-bottom: 1px solid black; 
-  margin-bottom: 10px;
-  background-color: grey;
-}
-
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-}
-
-.menu li{
-  display: inline-block ;
-  padding: 15px 20px 15px 20px;
-  width: 200px;
-  height: 30px; 
-  text-align: center;
-  border-right: 1px solid black;
-  background-color: white;
-}
-
-.menu :first-child {
-  border-left: 1px solid black;
-}
-
-.menu li:hover {
-  background-color: lightgray; 
-}
-
 footer {
   border: 1px solid black;
   margin-top: 10px;
@@ -46,25 +16,23 @@ footer {
 }
 
 #hoja_de_trabajo {
-  width: 90%;
-  height: 400px;
+  width: 95%;
   border: 2px dashed gray;
   margin: 0 auto;
   overflow: auto;
 }
-#hoja_de_trabajo h5 {
-  font: bold 25px verdana, sans-serif ;
-  margin: 0%;
+
+#hoja_de_trabajo h2 {
   text-align: center;
-  line-height: 50px;
 }
 
 .lista_proyecto {
+  font: bold 25px solid black;
   border: 1px dashed black;
-  font: bold 20px black verdana,sans-serif;
   padding: 10px;
   background-color: antiquewhite;
   margin-bottom: 0;
+  padding: 20px;
 }
 .contenedor_proyecto {
   border: 1px solid black;
@@ -77,14 +45,11 @@ footer {
 }
 
 .estado_proyecto{
-  font: 20px normal black verdana,sans-serif;
-  font-style: italic;
   display: inline-block;
   border: 1px solid black;
   width: 20%;
   margin-right: 5px;
   padding: 25px;
-  font: bold 15px black verdana,sans-serif;
   border-radius: 10px;
   background-color: antiquewhite;
   
@@ -95,7 +60,33 @@ footer {
   border: 1px solid black;
   width: 50%;
   padding: 25px;
-  font: bold 15px black verdana,sans-serif;
   border-radius: 10px;
   background-color: antiquewhite;    
+}
+
+.contenedor_materiales {
+  
+  margin: 0 auto;
+  
+   
+  
+  margin-bottom: 10px;
+}
+
+.planos {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 25px;  
+  width: 20%;
+  background-color: antiquewhite;
+}
+
+.materiales {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 25px;
+  width: 50%;
+  background-color: antiquewhite;
 }
