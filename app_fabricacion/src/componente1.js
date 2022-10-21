@@ -1,17 +1,13 @@
+import React from 'react';
 
-function MostrarProyectos(){
+export function MostrarProyectos(props) {
     return (
-        <div>
-            <h5>Listado de proyectos</h5>;
-            <ul>
-                <li>Proyecto id#001</li>
-                <li>Proyecto id#002</li>
-                <li>Proyecto id#003</li>
-                <li>Proyecto id#004</li>
-                <li>Proyecto id#005</li>
-            </ul>
+        <div className='contenedor_proyecto'>
+          <p className='lista_proyecto'>Proyecto ID#{props.proyectoid} </p>
+          <p className='estado_proyecto'>Estado: {props.estado} </p>   
+          <p className='descripcion_proyecto'>Descripción:{props.descripcion} </p>            
         </div>
     )    
 }
 
-export default MostrarProyectos;
+

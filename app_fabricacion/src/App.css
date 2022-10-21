@@ -59,20 +59,43 @@ footer {
   line-height: 50px;
 }
 
-#hoja_de_trabajo ul {
-  list-style-type: none;
-  margin: 0; 
+.lista_proyecto {
+  border: 1px dashed black;
+  font: bold 20px black verdana,sans-serif;
+  padding: 10px;
+  background-color: antiquewhite;
+  margin-bottom: 0;
 }
-#hoja_de_trabajo ul :first-child{
-  border-top: 1px dashed lightslategray;
+.contenedor_proyecto {
+  border: 1px solid black;
+  margin-bottom: 3px;
+  text-align: center;
 }
-#hoja_de_trabajo li {
-  text-indent: 100px;
-  padding: 15px;
-  font: bold  20px verdana, sans-serif;
-  border-bottom: 1px dashed lightslategray;  
+
+.contenedor_proyecto:hover{
+  background-color:lightgrey;
 }
-#hoja_de_trabajo li:hover{
-  text-shadow: 2px 2px lightgrey;
+
+.estado_proyecto{
+  font: 20px normal black verdana,sans-serif;
   font-style: italic;
+  display: inline-block;
+  border: 1px solid black;
+  width: 20%;
+  margin-right: 5px;
+  padding: 25px;
+  font: bold 15px black verdana,sans-serif;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  
+}
+
+.descripcion_proyecto {
+  display: inline-block;
+  border: 1px solid black;
+  width: 50%;
+  padding: 25px;
+  font: bold 15px black verdana,sans-serif;
+  border-radius: 10px;
+  background-color: antiquewhite;    
 }

@@ -1,5 +1,5 @@
 import './App.css';
-import MostrarProyectos from './componente1';
+import {MostrarProyectos} from './componente1.js';
 
 function App() {
   return (
@@ -16,7 +16,27 @@ function App() {
         </ul>
       </nav>
       <section id= "hoja_de_trabajo">
-        <MostrarProyectos></MostrarProyectos>
+      <h5>Listado de proyectos:</h5>;
+        <MostrarProyectos
+        proyectoid='001'
+        estado='activo'
+        descripcion='Proyecto Puente "miraflores" en construcción y sus materiales'
+        />
+        <MostrarProyectos 
+        proyectoid='002'
+        estado='activo' 
+        descripcion='Proyecto tramo carretero km07 y sus materiales requeridos'
+        />
+        <MostrarProyectos
+        proyectoid='003'
+        estado='activo'
+        descripcion='Construcción edificio tda autoservicio, materiales y planos requeridos'
+        />
+        <MostrarProyectos
+        proyectoid='004'
+        estado='pausado'
+        descripcion='N/A'
+        />
       </section>
       <footer>
         <br></br>
