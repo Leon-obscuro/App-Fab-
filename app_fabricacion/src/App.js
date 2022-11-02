@@ -1,5 +1,7 @@
 import './App.css';
 import {MostrarProyectos} from './componente1.js';
+import BarraBotones from './componente2.js';
+
 
 function App() {
   return (
@@ -7,7 +9,6 @@ function App() {
       <header className="cabecera">
         <h1>App de fabricación</h1>  
       </header>
-     
       <section id= "hoja_de_trabajo">
       <h2>Listado de Obras:</h2>;
         <MostrarProyectos
@@ -17,6 +18,7 @@ function App() {
         materiales='Varilla, cemento, block'
         planos='Planos001'
         />
+        <BarraBotones></BarraBotones>
         <MostrarProyectos 
         proyectoid='002'
         estado='activo' 
@@ -24,6 +26,7 @@ function App() {
         materiales='Varilla, cemento, block'
         planos='Planos002'
         />
+        <BarraBotones></BarraBotones>
         <MostrarProyectos
         proyectoid='003'
         estado='activo'
@@ -31,6 +34,7 @@ function App() {
         materiales='Varilla, cemento, block'
         planos='Planos003'
         />
+        <BarraBotones></BarraBotones>
         <MostrarProyectos
         proyectoid='004'
         estado='pausado'
@@ -38,10 +42,14 @@ function App() {
         materiales='Varilla, cemento, block'
         planos='Planos004'
         />
+        <BarraBotones></BarraBotones>
       </section>
+      
       <footer>
-        Integrantes del equipo:
-          <ul>
+      <div className='contenedor_imagen'>
+       <img src="/logo_ldsw.png" alt="logo ldsw" width="100%" /> 
+      </div>  
+          <ul>Proyecto 2 : Integrantes del equipo:
             <li>Héctor Iván Meza Ojeda</li>
             <li>Leonardo Francisco Pacheco</li>
             <li>Iván Diaz Sandoval</li>

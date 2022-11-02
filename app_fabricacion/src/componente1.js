@@ -2,7 +2,7 @@ import React from 'react';
 
 export function MostrarProyectos(props) {
     return (
-        <div className='contenedor_proyecto'>
+        <div className='contenedor_proyecto'><br></br>
           <p className='lista_proyecto'>Proyecto ID#{props.proyectoid} </p>
           <p className='estado_proyecto'><strong>Estado:</strong> {props.estado} </p>   
           <p className='descripcion_proyecto'><strong>Descripción:</strong>  {props.descripcion} </p>

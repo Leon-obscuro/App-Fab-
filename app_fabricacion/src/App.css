@@ -12,7 +12,20 @@
 footer {
   border: 1px solid black;
   margin-top: 10px;
-  font: 15px italic verdana;
+  background-color: lightgrey;
+  
+}
+
+footer img {
+  margin-top: 15px;
+}
+
+footer ul,li {
+  font-size: 20px; 
+  display: inline-block;
+  font-weight: bold;
+  padding: 20px;
+  align-items: center;
 }
 
 #hoja_de_trabajo {
@@ -27,22 +40,24 @@ footer {
 }
 
 .lista_proyecto {
-  font: bold 25px solid black;
+  font: bold 30px solid black;
   border: 1px dashed black;
-  padding: 10px;
+  border-radius: 15px;
+  padding: 25px;
   background-color: antiquewhite;
-  margin-bottom: 0;
-  padding: 20px;
+  width: 95%;
+  margin: 0 auto;
+  
 }
 .contenedor_proyecto {
   border: 1px solid black;
-  margin-bottom: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
+  font-size: 20px;
 }
 
-.contenedor_proyecto:hover{
-  background-color:lightgrey;
-}
+
 
 .estado_proyecto{
   display: inline-block;
@@ -52,6 +67,7 @@ footer {
   padding: 25px;
   border-radius: 10px;
   background-color: antiquewhite;
+  font-size: 20px;
   
 }
 
@@ -67,6 +83,7 @@ footer {
 .contenedor_materiales {
   margin: 0 auto;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .planos {
@@ -76,6 +93,7 @@ footer {
   padding: 25px;  
   width: 20%;
   background-color: antiquewhite;
+  margin-right: 5px;
 }
 
 .materiales {
@@ -98,6 +116,7 @@ footer {
   background-color: antiquewhite;
   width: 90%;
   border-radius: 10px;
+  font-size: 20px;
 
 }
 
@@ -116,5 +135,50 @@ footer {
 }
 
 .contenedor_trazabilidad li:hover {
-  background-color: grey;
+  border: 3px dashed darkgrey;
+}
+
+#barra {
+  width: 95%;
+  border: 1px solid black;
+  border-radius: 10px;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#barra p {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(216, 204, 189);
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#casillas_para_enviar {
+  font-size: 25px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+#barra_boton {
+  font-size: 25px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 25px;
+}
+
+#barra button {
+  font-size: 20px;
+  padding: 25px;
+  width: 120px;
+}
+
+#correo {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+  height: 35px;
 }
